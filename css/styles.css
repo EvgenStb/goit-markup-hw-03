@@ -13,7 +13,7 @@
 	--bgc-color: #fff;
 	--second-logo-color: #000000;
 	--footer-contact-color: rgba(255, 255, 255, 0.6);
-	--border-color: #ECECEC;
+	--border-color: #ececec;
 }
 
 body {
@@ -26,22 +26,31 @@ body {
 	letter-spacing: 0.03em;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
 	margin: 0;
 }
-ul, ol{
+
+ul,
+ol {
 	list-style: none;
 	padding: 0;
-	margin:0;
+	margin: 0;
 }
+
 img {
 	display: block;
-	max-width:100%;
-	height:auto;
+	max-width: 100%;
+	height: auto;
 }
-a{
-	text-decoration:none;
-	
+
+a {
+	text-decoration: none;
 }
 
 .container {
@@ -50,9 +59,10 @@ a{
 	padding-right: 15px;
 	margin: 0 auto;
 }
+
 section {
 	padding-top: 94px;
-	padding-bottom:94px;
+	padding-bottom: 94px;
 }
 
 .hide {
@@ -77,6 +87,7 @@ section {
 	display: flex;
 	align-items: center;
 }
+
 .border-buttom {
 	border-bottom: 1px solid var(--border-color);
 }
@@ -120,7 +131,7 @@ section {
 
 .nav-contact {
 	display: flex;
-	margin-left:auto;
+	margin-left: auto;
 }
 
 .header-contact {
@@ -138,7 +149,6 @@ section {
 .active:hover,
 .active:focus {
 	color: var(--secondary-color);
-	
 }
 
 /* Hero */
@@ -185,13 +195,13 @@ section {
 }
 
 /* Benefit */
- .benefit {
+.benefit {
 	line-height: 1.7;
-} 
+}
 
 .benefit-list {
 	display: flex;
-	gap: 30px
+	gap: 30px;
 }
 
 .benefit-list .item {
@@ -208,7 +218,6 @@ section {
 	color: var(--title-color);
 }
 
-
 /* About */
 /* title for section about and team */
 .about {
@@ -219,7 +228,7 @@ section {
 .about .list {
 	display: flex;
 	justify-content: center;
-	gap:30px;
+	gap: 30px;
 }
 
 .title {
@@ -251,7 +260,7 @@ section {
 }
 
 .team-dsc {
-	padding-bottom:30px;
+	padding-bottom: 30px;
 	background-color: var(--hero-text-color);
 	width: 270px;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -315,14 +324,14 @@ section {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
-	gap:8px;
+	gap: 8px;
 }
 
 .filter-btn {
 	padding: 6px 25px;
 	border-color: transparent;
 	border-radius: 4px;
-	
+
 	color: var(--link-color);
 	font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
 	font-weight: 500;
@@ -331,15 +340,12 @@ section {
 	background-color: var(--bgc-btn-color);
 }
 
-
 .filter-btn:hover,
 .filter-btn:focus {
 	background-color: var(--secondary-color);
 	color: var(--bgc-btn-color);
 	cursor: pointer;
-	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-				0px 1px 2px rgba(0, 0, 0, 0.08),
-				0px 2px 2px rgba(0, 0, 0, 0.12);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .project-list {
@@ -358,10 +364,11 @@ section {
 	margin: 30px;
 } */
 .project-desc {
-	padding:20px 24px;
+	padding: 20px 24px;
 	border-bottom: 1px solid var(--border-color);
-	border-right: 1px solid var(--border-color)
+	border-right: 1px solid var(--border-color);
 }
+
 .project-subtitle {
 	margin-bottom: 4px;
 	font-weight: 700;
